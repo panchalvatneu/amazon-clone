@@ -1,4 +1,5 @@
 import React from "react";
+import Product from "./Product";
 import "./Home.css";
 
 function Home() {
@@ -6,10 +7,13 @@ function Home() {
     <div className="home">
       <div className="home__container">
         <img
-        className="home__image"
-        src="https://m.media-amazon.com/images/I/61lXretRKRL._SX3000_.jpg"
-        alt="latest deal on alexa" 
+          className="home__image"
+          src="https://m.media-amazon.com/images/I/61lXretRKRL._SX3000_.jpg"
+          alt="latest deal on alexa"
         />
+        <div className="home__row">
+          <Product />
+        </div>
       </div>
     </div>
   );
