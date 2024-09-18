@@ -3,8 +3,9 @@
   display: flex;
   align-items: center;
   background-color: #131921;
+  position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 0px;
   z-index: 100;
 }
 
@@ -34,6 +35,15 @@
   background-color: #cd9042;
 }
 
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
 .header__nav {
   display: flex;
   justify-content: space-evenly;
@@ -45,15 +55,6 @@
   margin-left: 10px;
   margin-right: 10px;
   color: white;
-}
-
-.header__optionLineOne {
-  font-size: 10px;
-}
-
-.header__optionLineTwo {
-  font-size: 13px;
-  font-weight: 800;
 }
 
 .header__optionBasket {
